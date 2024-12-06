@@ -47,6 +47,8 @@ function Signup() {
     <div className="wrapper">
       <form action>
         <h1 className="heading"> <span className='heading'>Welcome to Our platform</span></h1>
+
+        
         <div className="input-box">
           <input type="text"
            placeholder="Enter Your Name"
@@ -60,7 +62,7 @@ function Signup() {
 
         <div className="input-box">
           <input type="text" 
-          placeholder="Username/Email"
+          placeholder="Email"
            required 
            value={user.email}
            onChange={(e)=>{setUser({...user,email:e.target.value})
@@ -89,7 +91,7 @@ function Signup() {
              />
         </div>
         
-        <button type="button" className="btn" onClick={signup}><Link to="/login" target="_blank" className="R"> <span className='button-tital' >Create Account</span></Link></button>
+        <button type="button" className="btn" onClick={signup}>Create Account</button>
         <div className="register-link">
 
         <Link to='/login' className='auth-link'>Already have an account ? Login</Link>
