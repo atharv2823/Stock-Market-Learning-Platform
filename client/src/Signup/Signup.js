@@ -73,13 +73,20 @@ function Signup() {
            placeholder="Enter Your Date of Birth"
             required
             value={user.dob}
-            onChange={(e)=>{setUser({...user,email:e.target.value})}}
+            onChange={(e)=>{setUser({...user,dob:e.target.value})}}
              
              />
         </div>
 
         <div className="input-box">
-          <input type="password" placeholder=" Create Your Password" required />
+          <input type="password"
+           placeholder=" Create Your Password"
+            required
+            value={user.password}
+            onChange={(e)=>{
+              setUser({...user,password:e.target.value})
+            }}
+             />
         </div>
         
         <button type="button" className="btn" onClick={signup}><Link to="/login" target="_blank" className="R"> <span className='button-tital' >Create Account</span></Link></button>
