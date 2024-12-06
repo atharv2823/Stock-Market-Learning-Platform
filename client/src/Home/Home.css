@@ -1,0 +1,44 @@
+.laptop-img{
+    position: absolute;
+    right: 5px;
+    top: 200px;
+}
+.info-container{
+    width: 50%;
+}
+.que-head{
+     
+    font-family: "Jaini", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(42, 42, 137);
+}
+.info-start{
+    font-family: "Jaini", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(42, 42, 137);
+    font-size: 20px;
+}
+.banner-img{
+    background-color: blue;
+}
+.market-banner{
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    border-radius: 10px;
+    height: 250px;
+    width: 700px;
+}
+.other-info{
+    position: relative;
+    left: 750px;
+    width: 50%;
+    height: 250px;
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,64 @@
+.info-rules{
+    font-size: 19px;
+}
+.Title{
+    text-align: center;
+}
+.sebi-img{
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: absolute;
+    right: 50px;
+    top: 220px;
+}
+.Tax-img{
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: absolute;
+    right: 50px;
+    top: 550px; 
+}
+.exchange-image{
+    display: flex;
+}
+.nse-image{
+    border: 1px solid black;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+.bse-image{
+    border: 1px solid black;
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+.Title-block{
+    display: flex;
+}
+.Title-nse{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 170px;
+}
+.Title-bse{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 450px;
+}
+.platform-info{
+    display: flex;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 60px;
+    border: 1px solid black;
+}

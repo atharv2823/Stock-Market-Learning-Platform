@@ -1,0 +1,21 @@
+.psychology-text{
+    font-size: 20px;
+   
+}
+.cycle-image{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    
+}
+/* .video-text{
+   margin-right: 300px;
+} */
+.arrow-image{
+    width: 100px;
+}
+.title{
+    text-align: center;
+}
