@@ -3,7 +3,7 @@ import "./Login.css"
 import { Link } from 'react-router-dom'
 
 import axios from 'axios'
-import toast from 'react-hot-toast'
+import toast, { Toaster } from 'react-hot-toast'
 import {useState} from 'react'
 
 
@@ -70,7 +70,10 @@ function Login() {
       </div>
     </form>
   </div>
+  <Toaster/>
 </div>
+
+
 
   )
 }
