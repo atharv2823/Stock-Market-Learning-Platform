@@ -58,3 +58,9 @@ span{
     background-color:  rgb(26, 26, 100);
     
 }
+
+@media screen and (max-width: 600px){
+    .footer{
+        width: 100%;
+    }
+}

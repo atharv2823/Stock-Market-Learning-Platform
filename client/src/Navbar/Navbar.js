@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (<>
 
-<div>
+<div className='navbar-container'>
   <nav className="navbar navbar-expand-lg  " style={{backgroundColor: '#e3f2fd'}}>
     <div className="container-fluid">
       <Link className="navbar-brand heading" to="/"><img src={logo} alt="main-logo" className="main-logo" /> <span className='logo-head'>Market मंत्र</span></Link>

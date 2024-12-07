@@ -42,3 +42,22 @@
     display: block;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 600px){
+
+    .laptop-container{
+        width: 100%;
+        display: block;
+        
+    }
+    .info-container{
+        width: 100%
+      
+    }
+    .mantra{
+        width: 600px;
+    };
+    .other-infok{
+      width: 50%;
+      background-color: red;
+    }
+}
