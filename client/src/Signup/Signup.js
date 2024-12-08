@@ -12,16 +12,28 @@ function Signup() {
   const [user, setUser] = useState({
     fullName:'',
     email:'',
-    password:'',
+    password:'', 
     dob:''
   })
 
   const signup = async () => {
-    const response = await axios.post(`${process.env.REACT_APP_API_URL}/signup`, {
-      fullName: user.fullName,
-      email: user.email,
-      password: user.password,
-      dob: user.dob
+    // const response = await axios.post(`${process.env.REACT_APP_API_URL}/signup`, {
+    //   fullName: user.fullName,
+    //   email: user.email,
+    //   password: user.password,
+    //   dob: user.dob
+    // })
+
+    const response = await axios({
+      method: 'POST',
+      url: `${process.env.REACT_APP_API_URL}/signup`,
+      data: {
+        fullName: user.fullName,
+        email: user.email,
+        password: user.password,
+        dob: user.dob
+        }
+        
     })
 
 
