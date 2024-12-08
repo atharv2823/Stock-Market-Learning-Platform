@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Navbar.css"
 import logo from "./Market Mantra.png"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 function Navbar() {
+  const navigate = useNavigate()
   return (<>
 
 <div className='navbar-container'>
@@ -44,8 +45,11 @@ function Navbar() {
             <Link className="nav-link nav-item" to="/golas" target="_blank">Goals</Link>
           </li> */}
           </ul>
-          <button className=" user-login-out" type='button'>
-            <Link className="button" to='/login' target="_blank">Log out</Link>
+          <button className=" user-login-out" type='button' onClick={() => {
+            localStorage.removeItem('currentUser')
+            window.location.href = '/login'
+          }}>
+          Log out
           </button>
         
       </div>
