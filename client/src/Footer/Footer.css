@@ -60,7 +60,8 @@ span{
 }
 
 @media screen and (max-width: 600px){
-    .footer{
+    .footer-background
+    {
         width: 100%;
     }
 }

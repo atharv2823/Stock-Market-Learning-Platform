@@ -13,10 +13,10 @@ function Home() {
       <h4 className="mantra">वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ। निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥</h4>
     </section>
 
-    <div className="mainpage-container">
-      <div className="laptop-container">
+    {/* <div className="mainpage-container"> */}
+      
         <img src={laptop} alt="laptop" className="mt-5 laptop-img" />
-      </div>
+      
       <div className="info-container">
         <h3 className="info ms-5 mt-5">What is <b className="que-head">Market मंत्र</b> ?</h3>
         <p className="ms-5 me-5 site-info">A <b className="info-start">Market मंत्र</b> website is an online platform that
@@ -52,20 +52,17 @@ function Home() {
             experience levels.
           </li>
         </ol>
-        <p />
-        <p>
-        </p>
       </div>
-    </div>
+    {/* </div> */}
     <hr />
 
-    <div className='global-main-block'>
+     {/* <div className='global-main-block'> */}
       <h3 className="text-center global-heading">Global News</h3>
       <br />
       
-        <div className="banner-img">
+        {/* <div className="banner-img"> */}
           <img src={banner} alt="banner" className="market-banner " />
-        </div>
+        {/* </div> */}
         <div className="other-info">
           <p className="ms-3 fs-3"><b>Additonal Key Points of Our Website :-</b></p>
           <p className="ms-5">
@@ -86,10 +83,9 @@ function Home() {
               market participants.
             </li>
           </ol>
-          <p />
         </div>
       
-    </div>
+    {/* </div> */}
    
 
 

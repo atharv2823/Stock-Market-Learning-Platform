@@ -44,20 +44,32 @@
 }
 @media screen and (max-width: 600px){
 
-    .laptop-container{
-        width: 100%;
-        display: block;
-        
+    .laptop-img{
+      width: 500px;
+      position: relative;
+      left: 50px;
+      top: -20px;
     }
     .info-container{
-        width: 100%
-      
+        display: block;
+        width: 600px;
+       position: relative;
     }
     .mantra{
-        width: 600px;
+        width: 100%;
+        margin-left: 60px;
     };
-    .other-infok{
+    .other-info{
       width: 50%;
       background-color: red;
+    }
+    .market-banner{
+        width: 500px;
+        position: relative;
+        top: auto;
+       
+    }
+    .global-heading{
+        margin-left: 250px;
     }
 }
