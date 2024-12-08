@@ -24,18 +24,6 @@ function Signup() {
       dob: user.dob
     })
 
-    // const response = await axios({
-    //   method: 'POST',
-    //   url: `${process.env.REACT_APP_API_URL}/signup`,
-    //   data: {
-    //     fullName: user.fullName,
-    //     email: user.email,
-    //     password: user.password,
-    //     dob: user.dob
-    //     }
-
-    })
-
 
     if(response.data.success){
       toast.success(response.data.message)
