@@ -76,9 +76,9 @@ function Rules() {
     <p className='info-rules ms-4 mt-4'>The Indian stock market operates primarily through two major stock exchanges:<b> BSE (Bombay Stock Exchange) and NSE (National Stock Exchange)</b>. These platforms facilitate the buying, selling, and listing of securities and are regulated by the Securities and Exchange Board of India (SEBI).</p>
  
     <div className='exchange-image'>
-      <img src={NSE} alt='nse image' className='nse-image' />
+      <img src={NSE} alt='nse img' className='nse-image' />
 
-      <img src={BSE} alt='nse image' className='bse-image' />
+      <img src={BSE} alt='nse img' className='bse-image' />
     </div>
     <div className='Title-block'>
       <p className='Title-nse'>NSE: Natonal Stock Exchange</p>

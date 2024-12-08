@@ -18,7 +18,7 @@ function Wishlist() {
   <div className="wishlist-container mb-3 ">
     <h2 className="wishlist-title">Bank Nifty</h2> 
     <p>Bank Nifty is an index that represents the 12 most liquid and large capitalized Indian banking stocks. It serves as a benchmark for the banking sector's performance in the Indian stock market. Bank Nifty provides investors and traders with an indication of the overall health and direction of the banking industry. </p>
-    <a href="https://in.tradingview.com/chart/?symbol=NSE%3ABANKNIFTY " target="_blank" className="view-chart"><div className='btn-container'><button className="btn-view">Details 🔍</button><button className="btn-view">View Chart 📊</button></div></a>
+    <a href="https://in.tradingview.com/chart/?symbol=NSE%3ABANKNIFTY " target="_blank"  rel="noreferrer" className="view-chart"><div className='btn-container'><button className="btn-view">Details 🔍</button><button className="btn-view">View Chart 📊</button></div></a>
   </div>
   <div className="wishlist-container mb-3">
     <h2 className="wishlist-title">Senxes</h2> 

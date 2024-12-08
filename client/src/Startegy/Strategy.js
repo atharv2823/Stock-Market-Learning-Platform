@@ -47,7 +47,7 @@ function Strategy() {
             <span> <Link to='https://youtu.be/jPhwBvyMe_k?si=rSjBCLRG-4eyoJL2' target='blank' className='fs-3 mb-5 ms-4' style={{ textDecoration: 'none', fontWeight: 'bold' }} > <img src={Video} alt='video' className="video-image ms-5 mt-3" style={{ width: '100px', cursor: 'pointer' }} /> </Link> </span>
         </div>
 
-        <img src={options} alt='optiins image' className='options-img' />
+        <img src={options} alt='optiins img' className='options-img' />
 
         <hr />
 
@@ -68,7 +68,7 @@ function Strategy() {
             <span> <Link to='https://youtu.be/RfdcE4Ebxh8?si=IE-XeKN3YWSQ_cQx' target='blank' className='fs-3 mb-5 ms-4' style={{ textDecoration: 'none', fontWeight: 'bold' }} > <img src={Video} alt='video' className="video-image ms-3 mt-3" style={{ width: '100px', cursor: 'pointer' }} /> </Link> </span>
         </div>
 
-        <img src={swing} alt='optiins image' className='swing-img' />
+        <img src={swing} alt='optiins img' className='swing-img' />
         <hr/>
 
         <h4 className='ms-3'>◉ Strategies for Intraday Trading :</h4>
@@ -89,7 +89,7 @@ function Strategy() {
         </div>
 
 
-        <img src={intraday} alt='optiins image' className='intrady-img' />
+        <img src={intraday} alt='optiins img' className='intrady-img' />
 
         <Footer />
 
