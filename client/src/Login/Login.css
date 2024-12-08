@@ -121,3 +121,10 @@ body{
 .create-account{
     color: black;
 }
+
+@media screen and (max-width: 600px) {
+    .wrapper{
+        width: 80%;
+    }
+    
+}

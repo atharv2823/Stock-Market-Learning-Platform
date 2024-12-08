@@ -65,6 +65,8 @@ function Login() {
       <button type="button" 
       className="btn"
        onClick={loginNow}>Login</button>
+
+       
       <div className="register-link">
         <p><span className='create-account'>Don't have an account ? </span><Link to="/signup" target="_blank" className="R"> Register</Link></p>
       </div>

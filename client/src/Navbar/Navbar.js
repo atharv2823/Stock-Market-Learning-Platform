@@ -40,9 +40,9 @@ function Navbar() {
                 </Link></li>
             </ul>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link nav-item" to="/golas" target="_blank">Goals</Link>
-          </li>
+          </li> */}
           </ul>
           <button className=" user-login-out" type='button'>
             <Link className="button" to='/login' target="_blank">Log out</Link>

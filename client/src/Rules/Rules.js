@@ -22,24 +22,29 @@ function Rules() {
 
     <p className='info-rules mt-3 ms-4'>The Indian stock market operates under regulations and guidelines established by various authorities, primarily the <b>Securities and Exchange Board of India (SEBI)</b>, to ensure fair practices, protect investors, and maintain market integrity. Here are the key rules and principles:</p>
 
-    <h5 className='ms-4'>1. Eligibility for Trading</h5>
+   <div className='rules-container'>
+   <h5 className='ms-4'>1. Eligibility for Trading</h5>
     <ul className='ms-5 fs-6'>
       <li><b>PAN Card Requirement:</b> A Permanent Account Number (PAN) is mandatory for all investors.</li>
       <li><b>Demat Account:</b> Investors must open a Demat account to hold securities electronically.</li>
       <li><b>Trading Account:</b> A trading account is needed to buy and sell shares.</li>
 
     </ul>
+   </div>
 
     <img src={sebi} alt='BSE' className='sebi-img' />
 
-    <h5 className='ms-4'>2. Trading Hours</h5>
+    <div className='rules-container-1'>
+      <h5 className='ms-4'>2. Trading Hours</h5>
     <ul className='ms-5 fs-6'>
       <li><b>Equity Market:</b> Open from 9:15 AM to 3:30 PM IST, Monday to Friday.</li>
       <li><b>Pre-Market Session:</b> From 9:00 AM to 9:15 AM for price discovery.</li>
       <li><b>After-Market Orders:</b> Allowed after 3:30 PM in some cases, but executed in the next trading session.</li>
 
     </ul>
+    </div>
 
+    <div className='rules-container-2'>
     <h5 className='ms-4'>3. Key Regulatory Authorities</h5>
     <ul className='ms-5 fs-6'>
       <li><b>SEBI:</b> Oversees and regulates all market participants, ensuring transparency and fairness.</li>
@@ -47,8 +52,10 @@ function Rules() {
       <li><b>RBI:</b> Regulates financial institutions and oversees foreign investments.</li>
 
     </ul>
+    </div>
 
 
+    <div className='rules-container-3'>
     <h5 className='ms-4'>4. Types of Trades</h5>
     <ul className='ms-5 fs-6'>
       <li><b>Intraday Trading:</b> Buying and selling stocks within the same trading day.</li>
@@ -58,10 +65,12 @@ function Rules() {
       </li>
 
     </ul>
+    </div>
 
     <img src={Tax} alt='BSE' className='Tax-img' />
 
 
+    <div className='rules-container-4'>
     <h5 className='ms-4'>5. Taxation on Stock Market Earnings</h5>
     <ul className='ms-5 fs-6'>
       <li><b>Short-Term Capital Gains Tax (STCG):</b> 15% tax on profits from selling shares held for less than a year.</li>
@@ -69,22 +78,23 @@ function Rules() {
       <li><b>Securities Transaction Tax (STT):</b> Applicable on all buy and sell transactions in equity and derivatives.</li>
 
     </ul>
+    </div>
     <hr />
 
-    <h2 className='Title'>Platform's and Brokerage</h2>
+    <h2 className='Title-1'>Platform's and Brokerage</h2>
 
     <p className='info-rules ms-4 mt-4'>The Indian stock market operates primarily through two major stock exchanges:<b> BSE (Bombay Stock Exchange) and NSE (National Stock Exchange)</b>. These platforms facilitate the buying, selling, and listing of securities and are regulated by the Securities and Exchange Board of India (SEBI).</p>
  
-    <div className='exchange-image'>
+    {/* <div className='exchange-image'> */}
       <img src={NSE} alt='nse img' className='nse-image' />
 
       <img src={BSE} alt='nse img' className='bse-image' />
-    </div>
-    <div className='Title-block'>
+    {/* </div> */}
+    {/* <div className='Title-block'> */}
       <p className='Title-nse'>NSE: Natonal Stock Exchange</p>
 
       <p className='Title-bse'>BSE: Bombay Stock Exchange</p>
-    </div>
+    {/* </div> */}
 
     <hr />
 

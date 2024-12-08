@@ -4,6 +4,9 @@
 .Title{
     text-align: center;
 }
+.Title-1{
+    text-align: center;
+}
 .sebi-img{
     height: 250px;
     width: 450px;
@@ -48,6 +51,9 @@
     margin-left: 170px;
 }
 .Title-bse{
+    position: relative;
+    left: 530px;
+    top: -50px;
     font-size: 25px;
     font-weight: bolder;
     margin-left: 450px;
@@ -61,4 +67,89 @@
     margin-left: 300px;
     margin-top: 60px;
     border: 1px solid black;
+}
+
+@media screen  and (max-width:600px){
+    .Title{
+        position: relative;
+        left: 130px;
+    }
+    .Title-1{
+        position: relative;
+        left: 180px;
+        top:60px;
+    }
+    .exchange-image{
+      background-color: red;
+      width: 600px;
+    }
+    .info-rules{
+        width: 600px;
+        position: relative;
+        top: 50px;
+    }
+    .sebi-img{
+        position: relative;
+        top: -130px;
+        left: 90px;
+    }
+    .Tax-img{
+        position: relative;
+        top: 50px;
+        left: 90px;
+    }
+    .rules-container{
+        
+        width: 600px;
+        position: relative;
+        top: 300px;
+    }
+    .rules-container-1{
+       
+        width: 600px;
+        position: relative;
+        top: 40px;
+    }
+    .rules-container-2{
+        
+        width: 600px;
+        position: relative;
+        top: 40px;
+    }
+    .rules-container-3{
+        
+        width: 600px;
+        position: relative;
+        top: 40px;
+    }
+    .rules-container-4{
+       
+        width: 600px;
+        position: relative;
+        top: 80px;
+    }
+    .nse-image{
+        position: relative;
+        top: 50px;
+        right: 50px;
+    }
+    .bse-image{
+        position: relative;
+        top: 150px;
+        right: 180px;
+        width: 500px;
+    }
+    .Title-nse{
+        position: relative;
+        top: -350px;
+        left: 40px;
+        font-size: 25px;
+    }
+    .Title-bse{
+        position: relative;
+        top: 100px;
+        right: 140px;
+        font-size: 20px;
+        
+    }
 }

@@ -10,3 +10,22 @@
     display: block;
     margin: 0 auto;
 }
+
+@media screen and (max-width :600px) {
+    .title{
+        position: relative;
+        left: 100px;
+    }
+    .risk-management-img{
+        width: 500px;
+        position: relative;
+        left: 50px;
+    }
+    .info{
+        width: 600px;
+    }
+    .video-block{
+        width: 600px;
+        
+    }
+}
