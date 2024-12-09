@@ -18,7 +18,7 @@ function Signup() {
 
   const signup = async () => {
     const response = await axios.post(`${process.env.REACT_APP_API_URL}/signup`, {
-      fullName: user.fullname,
+      fullname: user.fullname,
       email: user.email,
       password: user.password,
       dob: user.dob
