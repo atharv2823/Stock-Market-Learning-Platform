@@ -24,7 +24,7 @@ function ChartPatterns() {
         <Navbar />
         <div>
 
-            <h2 className="text-center mt-3">Learn Chart Patterns</h2>
+            <h2 className="text-center mt-3 title">Learn Chart Patterns</h2>
 
             <div className="chart-container">
                 <h4 className="ms-5"> <p className="sr-number">1</p>Head and shoulders</h4>

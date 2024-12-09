@@ -9,3 +9,16 @@
     display: block;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 600px) {
+    .mindset-img2{
+        width: 650px;
+    }
+    .main-Question{
+        width: 400px;
+    }
+    .mindset-box{
+        width: 650px;
+    }
+    
+}

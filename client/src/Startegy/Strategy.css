@@ -24,3 +24,20 @@
     display: block;
    
 }
+
+@media screen and (max-width:600px) {
+    .options-img{
+        width: 500px;
+        position: relative;
+        right: 220px;
+    }
+    .swing-img{
+        width: 500px;
+        position: relative;
+        right: 200px;
+    }
+    .intrady-img{
+        position: relative;
+        left: 80px;
+    }
+}

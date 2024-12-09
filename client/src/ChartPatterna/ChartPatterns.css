@@ -23,3 +23,13 @@
     margin: 10px auto;
    
 }
+
+@media screen and (max-width: 600px) {
+    .charts-info{
+        width: 550px;
+    }
+    .title{
+        text-align: center;
+    }
+    
+}

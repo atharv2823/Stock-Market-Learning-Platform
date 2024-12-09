@@ -33,3 +33,13 @@
 .btn-container{
     display: flex;
 }
+
+@media screen and (max-width:600px){
+    .wishlist-container{
+        width: 400px;
+        margin-left: 150px;
+    }
+    .wishlist-heading{
+       margin-left: 250px;
+    }
+}

@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 function MindSet() {
   return (<>
     <Navbar />
-    <div> <h2 className="main-Question ms-3 text-center">What is the Mindset of a Trader?</h2>
+    <div className='mindset-box'> <h2 className="main-Question ms-3 text-center">What is the Mindset of a Trader?</h2>
       <p className="ms-3 fs-5">Being a trader is not just about formulating better strategies and performing more extensive analysis, but is also about developing a winning mindset. According to many studies of traders, what separates a winning trader from a losing one:</p>
       <ol className="ms-3 fs-5">
         <li>It’s NOT that winning traders formulate better trading strategies</li>

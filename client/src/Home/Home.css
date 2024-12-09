@@ -22,9 +22,6 @@
     color: rgb(42, 42, 137);
     font-size: 20px;
 }
-.banner-img{
-    background-color: blue;
-}
 .market-banner{
     position: absolute;
     top: 800px;
@@ -37,7 +34,7 @@
     position: relative;
     left: 750px;
     width: 50%;
-    height: 250px;
+    height: 450px;
     color: black;
     display: block;
     margin-bottom: 20px;
@@ -59,14 +56,21 @@
         width: 100%;
         margin-left: 60px;
     };
-    .other-info{
-      width: 50%;
-      background-color: red;
-    }
     .market-banner{
         width: 500px;
+    }
+    .other-info{
+        width: 600px;
+        position: relative;
+        left: 20px;
+        height: 300px;
+       
+    }
+    .market-banner{
+        width: 300px;
         position: relative;
         top: auto;
+        left: 150px;
        
     }
     .global-heading{
