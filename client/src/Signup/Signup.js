@@ -26,7 +26,7 @@ function Signup() {
 
 
     if(response.data.success){
-      toast.success(response.data.message)
+      toast.error(response.data.message)
 
       setUser({
         fullname: '',
@@ -36,7 +36,7 @@ function Signup() {
       })
     }
     else{
-      toast.error(response.data.message)
+      toast.success(response.data.message)
     }
   }
 
