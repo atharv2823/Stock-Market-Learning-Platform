@@ -10,7 +10,7 @@ import { useState } from 'react'
 function Signup() {
 
   const [user, setUser] = useState({
-    fullName:'',
+    fullname:'',
     email:'',
     password:'', 
     dob:''
@@ -18,7 +18,7 @@ function Signup() {
 
   const signup = async () => {
     const response = await axios.post(`${process.env.REACT_APP_API_URL}/signup`, {
-      fullName: user.fullName,
+      fullName: user.fullname,
       email: user.email,
       password: user.password,
       dob: user.dob
@@ -29,7 +29,7 @@ function Signup() {
       toast.success(response.data.message)
 
       setUser({
-        fullName: '',
+        fullname: '',
         email: '',
         password: '',
         dob: ''
@@ -53,9 +53,9 @@ function Signup() {
           <input type="text"
            placeholder="Enter Your Name"
             required
-            value={user.fullName}
+            value={user.fullname}
             onChange={(e)=>{
-              setUser({...user,fullName:e.target.value})
+              setUser({...user,fullname:e.target.value})
             }}
              />
         </div>
