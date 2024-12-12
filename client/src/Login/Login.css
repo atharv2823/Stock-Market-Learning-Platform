@@ -124,7 +124,10 @@ body{
 
 @media screen and (max-width: 600px) {
     .wrapper{
-        width: 80%;
+       background-color: transparent;
+       width: 350px;
+       position: relative;
+       right: 450px;
     }
     
 }
